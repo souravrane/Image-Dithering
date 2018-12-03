@@ -1,0 +1,1 @@
+# Floyd–Steinberg dithering
