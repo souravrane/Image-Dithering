@@ -38,7 +38,10 @@ void draw() {
        float oldG = green(pix);
        float oldB = blue(pix);
        
-      //divide the color scale into only "factor" parts
+      //factor is the number of colors available in your color palet
+      //using which u color your image.
+      //eg if factor = 1, then there are 2 possible values 0 and 1.
+      //Hence the number of colors in your color palet of each type ( ie R,G and B) are only 2.
       int factor = 1; 
       
       //quantise the values to a shorter range of values
